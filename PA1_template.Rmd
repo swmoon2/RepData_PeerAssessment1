@@ -4,11 +4,11 @@ output:
   html_document:
     keep_md: true
 ---
-```{r setoptions, echo=FALSE, results='hide', message=FALSE}
+```{r setoptions, echo=TRUE, results='hide', message=FALSE}
 library(knitr)
 library(dplyr)
 library(lattice)
-opts_chunk$set(echo=FALSE)
+opts_chunk$set(echo=TRUE)
 ```
 
 ## Loading and preprocessing the data
